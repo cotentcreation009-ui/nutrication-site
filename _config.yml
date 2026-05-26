@@ -1,10 +1,9 @@
-# Jekyll config for the Nutrication legal pages (GitHub Pages).
-# This is the smallest workable config — just enough to render markdown
-# with sane defaults. No external themes, no plugins, no maintenance.
+# Jekyll config for the Nutrication public site (GitHub Pages).
+# Renders the landing page + legal docs at https://nutrication.app.
 
 title: Nutrication
 description: Honest food grades, backed by science.
-url: https://nutrication.app   # change to your real domain when ready
+url: https://nutrication.app
 baseurl: ""
 
 # Use GitHub's built-in markdown renderer.
@@ -17,17 +16,11 @@ kramdown:
 permalink: pretty
 
 # Strip files the public site doesn't need.
-# Internal-only docs (deployment, cost, strategy) live in this folder for
-# convenience but should NEVER be rendered as public pages.
 exclude:
-  - README.md
   - Gemfile
   - Gemfile.lock
   - vendor
-  - alternatives-feature-plan.md
-  - deployment-guide.md
-  - launch-cost-capacity.md
-  - product-analysis.md
+  - README.md
 
-# A minimal theme that ships with GitHub Pages (no extra plugins to enable).
-theme: jekyll-theme-minimal
+# We ship our own _layouts/default.html so we control the chrome end-to-end.
+# No gem theme = no third-party footer / branding / hosted-on links.
