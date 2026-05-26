@@ -75,5 +75,4 @@ Questions: **support@nutrication.app**
 
 ## Governing law
 
-These terms are governed by the laws of **[REPLACE WITH YOUR STATE /
-COUNTRY]**, without regard to conflict-of-law principles.
+These terms are governed by the laws of **the State of California, USA**, without regard to conflict-of-law principles.
